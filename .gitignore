@@ -1,0 +1,16 @@
+
+# Mac finder
+.DS_Store
+
+# All ndoe modules
+node_modules
+
+# bicep compiled ARM files are ignored
+/src/arm/*.json
+
+# local tmp store
+.local/
+
+# Local secrets that should not be committed
+# TODO: Generate secrets once [vscode-remote-release#4568](https://github.com/microsoft/vscode-remote-release/issues/4568) is resolved.
+# .secrets/

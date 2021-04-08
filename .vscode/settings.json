@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [{
+        "name": "Container database",
+        "driver": "PostgreSQL",
+        "previewLimit": 50,
+        "server": "db",
+        "port": 5432,
+        "database": "secretdb",
+        "username": "secretuser",
+        "password": "secretpassword"
+    }],
+    "yaml.schemas": {
+      "https://json.schemastore.org/github-workflow": "*.github/workflows/*.yaml"
+    }
+}
